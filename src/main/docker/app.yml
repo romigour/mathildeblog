@@ -1,0 +1,15 @@
+version: '2'
+services:
+    mathildeblog-app:
+        image: mathildeblog
+        environment:
+            - _JAVA_OPTIONS=-Xmx512m -Xms256m
+            - SPRING_PROFILES_ACTIVE=prod,swagger
+            - SPRING_DATASOURCE_URL=jdbc:postgresql://mathildeblog-postgresql:5432/mathildeblog
+            - JHIPSTER_SLEEP=10 # gives time for the database to boot before the application
+        ports:
+            - 8080:8080
+    mathildeblog-postgresql:
+        extends:
+            file: postgresql.yml
+            service: mathildeblog-postgresql

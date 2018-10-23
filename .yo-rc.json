@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.shiva.mathildeblog",
+      "nativeLanguage": "fr"
+    },
+    "jhipsterVersion": "5.5.0",
+    "applicationType": "monolith",
+    "baseName": "mathildeblog",
+    "packageName": "com.shiva.mathildeblog",
+    "packageFolder": "com/shiva/mathildeblog",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NGQxNzg0ODI3NzcwZTA3OGU4MGMzZGM5YzJmNGNmYmU0NDBkM2JkNDBlYjJjYzc4MjdkMjUxZGE1NGVhZGRiNWY3MmEzZjA2MTZlMjExZGJhZDgyMjIwNGM5Yzc2MGZhOThhMzFlZDI3ODBlNGIzMjljMDlhOWQ4M2FlY2UzMGM=",
+    "clientFramework": "angularX",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": [
+      "fr"
+    ]
+  }
+}

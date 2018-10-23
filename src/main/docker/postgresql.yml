@@ -1,0 +1,11 @@
+version: '2'
+services:
+    mathildeblog-postgresql:
+        image: postgres:10.4
+        # volumes:
+        #     - ~/volumes/jhipster/mathildeblog/postgresql/:/var/lib/postgresql/data/
+        environment:
+            - POSTGRES_USER=mathildeblog
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432
